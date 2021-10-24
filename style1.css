@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto','sans-serif', 'Monospace';
+    background: #8e9eab; 
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  
+    background: linear-gradient(to right, #eef2f3, #8e9eab); 
+    
+ 
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.card{
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    width: 25%;
+    height: 75vh;
+    text-align: center;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2); 
+    background: linear-gradient(to right, #2F80ED, #56CCF2); 
+}
+
+p{
+    margin-top: 4%;
+    color: white;
+}
+
+a{
+    color: darkblue;
+}
+
+#show{
+    margin-right: -5%;
+    cursor: pointer;
+}
