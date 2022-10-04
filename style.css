@@ -5,8 +5,8 @@ body{
     padding: 0;
     font-family: 'Roboto','sans-serif', 'Monospace';
     background: #8e9eab; 
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  
-    background: linear-gradient(to right, #eef2f3, #8e9eab); 
+    background: -webkit-linear-gradient(to right, #aae0ee, #389ef3);  
+    background: linear-gradient(to right, #86e6fe, #3399ed); 
     
  
 
@@ -28,11 +28,11 @@ h1{
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 1px 20px 6px black;
     width: 25%;
-    height: 75vh;
+    height: 68vh;
     text-align: center;
     background: #56CCF2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2); 
-    background: linear-gradient(to right, #2F80ED, #56CCF2); 
+    background: -webkit-linear-gradient(to right, #e67878, #f04e19); 
+    background: linear-gradient(to right, #f67878, #ea3925); 
 }
 
 label{
@@ -49,11 +49,28 @@ input{
     font-weight: bold;
 }
 
-input:hover{
-    border: 2px solid darkblue;
+#resend{
+  border-radius: 8px;
+  border: none;
 }
+
+#resend:hover{
+  border: 2px solid black;
+  background-color: #7b7777;
+}
+
+input:hover{
+    border: 1px solid darkblue;
+    background-color: gray;
+}
+
+
 input:focus {
-    border: 2px solid #555;
+    border: 1px solid #555;
+  }
+
+  input::placeholder{
+    color: black;
   }
 
 #submit, .btn{
@@ -72,9 +89,10 @@ input:focus {
 }
 
 #submit:hover{
-    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    background-image: linear-gradient(to top, #242c29 0%, #4a514f 70%);
     color: black;
     box-shadow: 0px 1px 25px 5px black;
+    color: greenyellow;
 }
 
 p{
@@ -83,7 +101,6 @@ p{
 }
 
 a{
-    color: darkblue;
     text-decoration: none;
     cursor: pointer;
 }
